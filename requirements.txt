@@ -1,0 +1,27 @@
+# Core
+fastapi==0.110
+langchain==1.2.0
+langchain-core==0.3.72
+ollama==0.1.9
+langchain-ollama ==1.0.1
+# Auth & Identity
+authlib>=1.2
+pyjwt>=2.8
+fido2>=1.1
+
+# Crypto
+cryptography>=42.0
+argon2-cffi>=23.1
+pyopenssl>=24.0
+
+# Access Control
+casbin>=1.34
+
+# Logging & Audit
+structlog>=24.1
+loguru>=0.7
+
+# Security Tools
+bandit>=1.7
+safety>=3.0
+pip-audit>=2.7
