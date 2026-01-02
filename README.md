@@ -1,46 +1,18 @@
+PULSE - personal unified life support engine 
+P.U.L.S.E. is an intelligent personal assistant engine designed to enhance your daily life, streamline your workflows, and support both personal and professional goals. Whether you’re tackling everyday tasks, exploring complex problems, managing digital security, or growing your personal brand, P.U.L.S.E. brings a unified, AI-driven approach to help you achieve more. 
 
-PULSE - Personal AI workflow tool Assistaint. Desgin for local-first anbd sercure by system
+Goals
 
-Pulse is a personal workflow assistant you can run locally or expose securely over VPN if you know what you’re doing. It’s designed for people who want AI superpowers without giving up data ownership.
+Create a truly personalized AI assistant that learns your preferences and routines.
+Provide a modular, extendable framework for future AI integrations.
+Serve as a one-stop solution for productivity, creativity, and digital safety.
+Maintain privacy-first design, giving you full control over your data.
 
-Local-first: keep your data on your machine.
-Hackable: you can swap models, tweak prompts, add tools.
-Secure by default: encryption at rest, minimal logs, explicit consent for any network use.
+Who Is It For
 
+P.U.L.S.E. is built for anyone who wants:
 
-Why?
-
-In a world where AI + data = everything, you shouldn’t have to trade privacy for convenience. Pulse helps you automate, summarize, draft, and organize—while giving you control over where data lives and how it’s protected.
-
-How does it work?
-
-LLM: Runs with ollama 3.2 (lightweight) so it works on most PCs and laptop
-
-Speech:
-SST using openAI whipser (local engine to use)
-TTS currently use GTTS will be changed later 
-
-Sercuity:
-Uses AES-256 at rest via standard laibaries cryptography
-Argon2/brcypt passowrd hashing for local auth
-Keys loaded from env vars or prompted at runtime
-
-Connectivity
-Local only by deafualt 
-Optional VPN exposure for remote access
-Any external API usage is explicitly opt-in
-
-The modes:
-Local-Only (Default): all inference + storage stays on your device.
-Privacy-Aware Hybrid: you pick which parts can call out (e.g., gTTS) and see a clear banner when network is used.
-Remote via VPN: run on a home server and connect over your own VPN.
-
-Security & Data Handling (basic)
-
-Authentication: local user w/ hashed password (Argon2/bcrypt).
-
-Encryption at Rest: AES-256 (GCM/Fernet) for configs, memory store, logs.
-Key Management: keys derived from passphrase at startup or read from PULSE_MASTER_KEY env var; never stored plaintext.
-Logging: minimal, sanitized, and encrypted; toggleable from the UI.
-Network Policy: outbound calls off by default; any cloud call requires explicit consent and is visibly flagged.
-Delete Button: one-click secure wipe for local store (overwritable pass recommended on SSD/HDD where practical).
+A smarter, more efficient way to manage daily tasks.
+A tool to handle complex computations or technical projects.
+Personalized assistance for content creation and social media management.
+A secure and private AI environment that adapts to their lifestyle.
