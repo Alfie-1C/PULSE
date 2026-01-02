@@ -1,0 +1,4 @@
+PULSE core.py has been added 
+Memory has been added 
+Memory stores into pulse_memory.json
+As of 02/1/26 theres only CLI support for pulse however in the future v0.2 front-end support will be added 
