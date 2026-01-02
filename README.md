@@ -1,3 +1,5 @@
+PLEASE NOTE THIS IS A DEMO. EVERYTHING IS SUBJECT TO CHANGE.
+
 PULSE - personal unified life support engine 
 P.U.L.S.E. is an intelligent personal assistant engine designed to enhance your daily life, streamline your workflows, and support both personal and professional goals. Whether you’re tackling everyday tasks, exploring complex problems, managing digital security, or growing your personal brand, P.U.L.S.E. brings a unified, AI-driven approach to help you achieve more. 
 
